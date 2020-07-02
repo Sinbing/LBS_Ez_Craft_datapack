@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"A  ", 
+		"BB ", 
+		"A  "
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:shulker_shell"
+		},
+		"B": {
+			"tag": "minecraft:logs"
+		}
+	},
+	"result": {
+		"item": "minecraft:shulker_box"
+	}
+}
