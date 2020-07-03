@@ -14,12 +14,12 @@
 
 ### [合成配方展示](docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
 - 发射器简便合成：  
-   ![](https://qqadapt.qpic.cn/txdocpic/0/68cc2cc223e7d570478abbebee868b8c/0?w=268&h=136)  
+   ![ez_dispenser](https://qqadapt.qpic.cn/txdocpic/0/68cc2cc223e7d570478abbebee868b8c/0?w=268&h=136)  
 - 潜影盒简便合成：  
-   ![](https://qqadapt.qpic.cn/txdocpic/0/65eb305bdf09c1af1c3f79ddd03b03bb/0?w=253&h=136)  
+   ![ez_shulker_box](https://qqadapt.qpic.cn/txdocpic/0/65eb305bdf09c1af1c3f79ddd03b03bb/0?w=253&h=136)  
 - 骨块批量合成：  
-   ![](https://qqadapt.qpic.cn/txdocpic/0/b303436a6a66d445a871d3d16da568e9/0?w=255&h=135)  
+   ![bone_2_bone_block](https://qqadapt.qpic.cn/txdocpic/0/b303436a6a66d445a871d3d16da568e9/0?w=255&h=135)  
 - 箱子批量合成：  
-   ![](https://qqadapt.qpic.cn/txdocpic/0/f8107f1495237d0f3e6d4639ac27ce82/0?w=248&h=135)  
+   ![log_2_chest](https://qqadapt.qpic.cn/txdocpic/0/f8107f1495237d0f3e6d4639ac27ce82/0?w=248&h=135)  
 - 木棍批量合成：  
-   ![](https://qqadapt.qpic.cn/txdocpic/0/66fbd00adb8937053c1d62f65fc6b31d/0?w=165&h=103)  
+   ![log_2_stick](https://qqadapt.qpic.cn/txdocpic/0/66fbd00adb8937053c1d62f65fc6b31d/0?w=165&h=103)  
