@@ -1,19 +1,19 @@
 {
-  "criteria":{
-    "have_bone":{
-      "trigger":"minecraft:inventory_changed",
-      "conditions":{
-        "items":[
+  "criteria": {
+    "have_bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
-            "count":3,
-            "item":"bone"
+            "count": 3,
+            "item": "bone"
           }
         ]
       }
     }
   },
-  "rewards":{
-    "recipes":[
+  "rewards": {
+    "recipes": [
       "ezcraft:bone_2_bone_block"
     ]
   }
