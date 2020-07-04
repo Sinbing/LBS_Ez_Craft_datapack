@@ -12,7 +12,7 @@
    - 如返回已启用数据包中包含 `[file/Ez_Crafted]` 则安装成功；  
    - 使用 `/datapack disable` 或 `/datapack enable` 可以分别**启用/禁用**数据包。  
 
-## [合成配方展示](docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
+## [合成配方展示](https://docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
 - 发射器简便合成：  
    ![ez_dispenser](https://qqadapt.qpic.cn/txdocpic/0/68cc2cc223e7d570478abbebee868b8c/0?w=268&h=136)  
 - 潜影盒简便合成：  
