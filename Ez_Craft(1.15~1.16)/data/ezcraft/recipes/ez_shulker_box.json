@@ -1,8 +1,9 @@
 {
-	"type": "crafting_shaped",
+	"type": "minecraft:crafting_shaped",
+	"group": "shulker_boxs",
 	"pattern": [
-		" A ", 
-		"B B", 
+		" A ",
+		"B B",
 		" A "
 	],
 	"key": {

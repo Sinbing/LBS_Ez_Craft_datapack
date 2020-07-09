@@ -1,0 +1,23 @@
+{
+  "parent": "ezcraft:recipes/root",
+  "criteria": {
+    "have_6_bones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "count": {
+              "min": 6
+            },
+            "item": "bone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ezcraft:bone_to_bone_block2"
+    ]
+  }
+}

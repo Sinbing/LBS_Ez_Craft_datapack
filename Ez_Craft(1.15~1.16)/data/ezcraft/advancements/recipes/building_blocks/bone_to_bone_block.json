@@ -1,11 +1,14 @@
 {
+  "parent": "ezcraft:recipes/root",
   "criteria": {
-    "have_bone": {
+    "have_3_bones": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "count": 3,
+            "count": {
+              "min": 3
+            },
             "item": "bone"
           }
         ]
@@ -14,7 +17,7 @@
   },
   "rewards": {
     "recipes": [
-      "ezcraft:bone_2_bone_block"
+      "ezcraft:bone_to_bone_block"
     ]
   }
 }
