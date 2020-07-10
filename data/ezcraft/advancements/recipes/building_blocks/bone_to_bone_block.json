@@ -13,8 +13,20 @@
           }
         ]
       }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ezcraft:bone_to_bone_block"
+      }
     }
   },
+  "requirements": [
+    [
+      "have_3_bones",
+      "has_the_recipe"
+    ]
+  ]
   "rewards": {
     "recipes": [
       "ezcraft:bone_to_bone_block"
