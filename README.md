@@ -1,21 +1,23 @@
 ## 数据包~~食用~~使用说明  
 
-1. 将数据包放入存档文件夹中  
+1. 选择所需下载的数据包  
+   - 如需使用稳定版，请进入[Release页面](https://github.com/Sinbing/LBS_Ez_Craft_datapack/releases)下载  
+   - 如需调试最新版（可能不稳定），请直接将源码Clone到存档数据包文件夹中  
 
-   - 本地存档位于`\.minecraft\saves\[<存档名>]\datapacks\`  
-   - 服务器存档位于`\world\datapacks\`  
+2. 将数据包下载到存档数据包文件夹中  
+   - 单机存档请放入`\.minecraft\saves\[<存档名>]\datapacks\`  
+   - 服务器请放入位于`\world\datapacks\`  
 
-2. 在游戏中使用`/reload`命令，加载数据包  
+3. 在游戏中使用`/reload`命令，加载数据包  
 
-3. 在游戏中使用`/datapack list`命令，查看已载入数据包  
+4. 在游戏中使用`/datapack list`命令，查看已载入的数据包  
+   - 如返回已启用数据包中包含`[file/LBS_Ez_Crafting]`则安装成功  
+   - 使用`/datapack enable`或`/datapack disable`可以分别**启用/禁用**数据包  
 
-   - 如返回已启用数据包中包含`[file/Ez_Crafted]`则安装成功  
-   - 使用`/datapack disable`或`/datapack enable`可以分别**启用/禁用**数据包  
-
-## [合成配方展示](https://docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
+## [合成配方展示（待更新）](https://docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
 - 发射器简便合成  
    ![ez_dispenser](https://qqadapt.qpic.cn/txdocpic/0/68cc2cc223e7d570478abbebee868b8c/0?w=268&h=136)  
-   
+
 - 潜影盒简便合成  
    ![ez_shulker_box](https://qqadapt.qpic.cn/txdocpic/0/65eb305bdf09c1af1c3f79ddd03b03bb/0?w=253&h=136)  
 
