@@ -29,3 +29,7 @@
 
 - 木棍批量合成  
    ![log_2_stick](https://qqadapt.qpic.cn/txdocpic/0/66fbd00adb8937053c1d62f65fc6b31d/0?w=165&h=103)  
+
+## 最新成果展示
+
+![demo.png](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/demo.png)
