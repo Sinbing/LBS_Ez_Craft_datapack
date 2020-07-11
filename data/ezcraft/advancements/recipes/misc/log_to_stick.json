@@ -1,15 +1,12 @@
 {
   "parent": "ezcraft:recipes/root",
   "criteria": {
-    "have_2_logs": {
+    "have_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "log",
-            "count": {
-              "min": 2
-            }
+            "tag": "minecraft:logs"
           }
         ]
       }

@@ -6,10 +6,7 @@
       "conditions": {
         "items": [
           {
-            "count": {
-              "min": 9
-            },
-            "item": "bone"
+            "item": "minecraft:bone"
           }
         ]
       }

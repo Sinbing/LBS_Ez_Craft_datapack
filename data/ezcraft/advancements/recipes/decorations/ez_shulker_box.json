@@ -1,15 +1,12 @@
 {
   "parent": "ezcraft:recipes/root",
   "criteria": {
-    "have_2_shulker_shells": {
+    "have_shulker_shell": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "shulker_shell",
-            "count": {
-              "min": 2
-            }
+            "item": "minecraft:shulker_shell"
           }
         ]
       }

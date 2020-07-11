@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "item": "dropper"
+            "item": "minecraft:dropper"
           }
         ]
       }
