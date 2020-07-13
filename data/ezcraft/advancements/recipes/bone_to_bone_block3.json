@@ -1,7 +1,7 @@
 {
   "parent": "ezcraft:recipes/root",
   "criteria": {
-    "have_9_bones": {
+    "have_bone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
