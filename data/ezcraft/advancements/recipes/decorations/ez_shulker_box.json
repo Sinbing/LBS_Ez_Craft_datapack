@@ -1,0 +1,20 @@
+{
+  "parent": "ezcraft:recipes/root",
+  "criteria": {
+    "have_shulker_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shulker_shell"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ezcraft:ez_shulker_box"
+    ]
+  }
+}
