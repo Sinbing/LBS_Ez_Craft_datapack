@@ -1,16 +1,20 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "wooden_slab",
-	"pattern": [
-	  "XXX"
-	],
-	"key": {
-	  "X": {
-		"tag": "minecraft:dark_oak_logs"
-	  }
-	},
-	"result": {
-	  "item": "minecraft:dark_oak_slab",
-	  "count": 24
-	}
+  "parent": "ezcraft:recipes/root",
+  "criteria": {
+    "have_dark_oak_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:dark_oak_logs"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ezcraft:ez_slab_dark_oak"
+    ]
+  }
 }

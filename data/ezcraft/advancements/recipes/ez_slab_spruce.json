@@ -1,16 +1,20 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "wooden_slab",
-	"pattern": [
-	  "XXX"
-	],
-	"key": {
-	  "X": {
-		"tag": "minecraft:spruce_logs"
-	  }
-	},
-	"result": {
-	  "item": "minecraft:spruce_slab",
-	  "count": 24
-	}
+  "parent": "ezcraft:recipes/root",
+  "criteria": {
+    "have_spruce_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:spruce_logs"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ezcraft:ez_slab_spruce"
+    ]
+  }
 }
