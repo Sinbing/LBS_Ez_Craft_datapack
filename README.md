@@ -56,5 +56,5 @@
 
 ## 一份（奇怪的）福利  
 ~~兵煲可爱妈妈爱~~  
-使用了b站up主**[零之时_zero](https://space.bilibili.com/23535347)**发布在[动态](https://t.bilibili.com/411789159264153150?tab=2)中的一张5K壁纸作为数据包的图标，请在1.16.2以上的客户端预览  
+截取了b站up主[零之时_zero](https://space.bilibili.com/23535347)发布在[动态](https://t.bilibili.com/411789159264153150?tab=2)中的一张5K壁纸作为数据包的图标，请在1.16.2以上的客户端预览  
 ![rue](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/rue.png)  
