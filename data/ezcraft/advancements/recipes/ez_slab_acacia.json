@@ -1,0 +1,20 @@
+{
+  "parent": "ezcraft:recipes/root",
+  "criteria": {
+    "have_acacia_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:acacia_logs"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ezcraft:ez_slab_acacia"
+    ]
+  }
+}

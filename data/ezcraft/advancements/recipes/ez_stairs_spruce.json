@@ -1,12 +1,12 @@
 {
   "parent": "ezcraft:recipes/root",
   "criteria": {
-    "have_6_bones": {
+    "have_spruce_logs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bone"
+            "tag": "minecraft:spruce_logs"
           }
         ]
       }
@@ -14,7 +14,7 @@
   },
   "rewards": {
     "recipes": [
-      "ezcraft:bone_to_bone_block2"
+      "ezcraft:ez_stairs_spruce"
     ]
   }
 }

@@ -1,18 +1,16 @@
 {
 	"type": "minecraft:crafting_shaped",
-	"group":"bone_blocks",
+	"group": "wooden_slab",
 	"pattern": [
 	  "XXX"
 	],
 	"key": {
 	  "X": {
-		"item": "minecraft:oak_log"
+		"tag": "minecraft:oak_logs"
 	  }
 	},
 	"result": {
 	  "item": "minecraft:oak_slab",
 	  "count": 24
-
 	}
-  }
-  
+}

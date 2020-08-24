@@ -1,12 +1,12 @@
 {
   "parent": "ezcraft:recipes/root",
   "criteria": {
-    "have_3_bones": {
+    "have_oak_logs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bone"
+            "tag": "minecraft:oak_logs"
           }
         ]
       }
@@ -14,7 +14,7 @@
   },
   "rewards": {
     "recipes": [
-      "ezcraft:bone_to_bone_block"
+      "ezcraft:ez_slab_oak"
     ]
   }
 }

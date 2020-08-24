@@ -1,0 +1,20 @@
+{
+  "parent": "ezcraft:recipes/root",
+  "criteria": {
+    "have_oak_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:oak_logs"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ezcraft:ez_stairs_oak"
+    ]
+  }
+}

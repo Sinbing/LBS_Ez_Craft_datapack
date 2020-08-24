@@ -1,18 +1,16 @@
 {
 	"type": "minecraft:crafting_shaped",
-	"group":"bone_blocks",
+	"group": "wooden_slab",
 	"pattern": [
 	  "XXX"
 	],
 	"key": {
 	  "X": {
-		"item": "minecraft:warped_stem"
+		"tag": "minecraft:crimson_stems"
 	  }
 	},
 	"result": {
-	  "item": "minecraft:warped_slab",
+	  "item": "minecraft:crimson_slab",
 	  "count": 24
-
 	}
-  }
-  
+}
