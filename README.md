@@ -6,31 +6,50 @@
    - 如需调试最新版（可能不稳定），请直接将源码Clone到存档数据包文件夹中  
 
 2. 将数据包下载到存档数据包文件夹中  
-   - 单机存档请放入`\.minecraft\saves\[<存档名>]\datapacks\`  
+   - 单机存档请放入`\.minecraft\saves\<save_name>\datapacks\`  
    - 服务器请放入位于`\world\datapacks\`  
 
-3. 在游戏中使用`/reload`命令，加载数据包  
+3. 在游戏中使用命令`/reload`，加载数据包  
 
-4. 在游戏中使用`/datapack list`命令，查看已载入的数据包  
+4. 在游戏中使用命令`/datapack list`，查看已载入的数据包  
    - 如返回已启用数据包中包含`[file/LBS_Ez_Crafting]`则安装成功  
-   - 使用`/datapack enable`或`/datapack disable`可以分别**启用/禁用**数据包  
+   - 使用命令`/datapack enable`或`/datapack disable`可以分别**启用/禁用**数据包  
 
 ## [合成配方展示（待更新）](https://docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
-- 发射器简便合成  
-   ![ez_dispenser](https://qqadapt.qpic.cn/txdocpic/0/68cc2cc223e7d570478abbebee868b8c/0?w=268&h=136)  
+- 发射器便捷合成(Easy dispenser)  
+![ez_dispenser](https://qqadapt.qpic.cn/txdocpic/0/68cc2cc223e7d570478abbebee868b8c/0?w=268&h=136)  
 
-- 潜影盒简便合成  
-   ![ez_shulker_box](https://qqadapt.qpic.cn/txdocpic/0/65eb305bdf09c1af1c3f79ddd03b03bb/0?w=253&h=136)  
+- 发射器便捷合成Ⅱ(Easy dispenser Ⅱ)  
+![ez_dispenser2](https://qqadapt.qpic.cn/txdocpic/0/573ea9d12448524dcabb69856f98dc5a/0?w=248&h=139)
 
-- 骨块批量合成  
-   ![bone_2_bone_block](https://qqadapt.qpic.cn/txdocpic/0/b303436a6a66d445a871d3d16da568e9/0?w=255&h=135)  
+- 潜影盒便捷合成(Easy shulker box)  
+![ez_shulker_box](https://qqadapt.qpic.cn/txdocpic/0/65eb305bdf09c1af1c3f79ddd03b03bb/0?w=253&h=136)  
 
-- 箱子批量合成  
-   ![log_2_chest](https://qqadapt.qpic.cn/txdocpic/0/f8107f1495237d0f3e6d4639ac27ce82/0?w=248&h=135)  
+- 骨块批量合成(Easy bone block)  
+![bone_2_bone_block](https://qqadapt.qpic.cn/txdocpic/0/b303436a6a66d445a871d3d16da568e9/0?w=255&h=135)  
 
-- 木棍批量合成  
-   ![log_2_stick](https://qqadapt.qpic.cn/txdocpic/0/66fbd00adb8937053c1d62f65fc6b31d/0?w=165&h=103)  
+- 骨块批量合成Ⅱ(Easy bone block Ⅱ)  
+![bone_2_bone_block2](https://qqadapt.qpic.cn/txdocpic/0/7ea1066702fbb09c808674ded460fd86/0?w=245&h=135)  
 
-## 最新成果展示（咕
+- 骨块批量合成Ⅲ(Easy bone block Ⅲ)  
+![bone_2_bone_block3](https://qqadapt.qpic.cn/txdocpic/0/e8b5c44c5635890fa566d3aad9a950fd/0?w=246&h=138)  
 
-![demo.png](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/demo.png)
+- 箱子批量合成(Easy chest)  
+![log_2_chest](https://qqadapt.qpic.cn/txdocpic/0/6f590bba1154f29fbcfb800d41a9d0f5/0?w=245&h=134)  
+
+- 木棍批量合成(Easy stick)  
+![log_2_stick](https://qqadapt.qpic.cn/txdocpic/0/66fbd00adb8937053c1d62f65fc6b31d/0?w=165&h=103)  
+
+- 台阶批量合成(Easy slab)  
+(咕)  
+
+- 楼梯批量合成(Easy stairs)  
+(咕)  
+
+## 最新成果展示(咕
+
+- 箱子、骨块、发射器的便捷合成  
+![demo_v1.0.png](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/demo_v1.0.png)  
+
+- 台阶、楼梯的批量合成  
+![demo_v2.0.png](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/demo_v2.0.png)  
