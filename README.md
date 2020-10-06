@@ -40,21 +40,13 @@
 - 木棍批量合成(Easy stick)  
 ![log_2_stick](https://qqadapt.qpic.cn/txdocpic/0/66fbd00adb8937053c1d62f65fc6b31d/0?w=165&h=103)  
 
-- 台阶批量合成(Easy slab)  
-(咕)  
-
-- 楼梯批量合成(Easy stairs)  
-(咕)  
-
-## 最新成果展示(咕
-
 - 箱子、骨块、发射器的便捷合成  
-![demo_v1.0](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/demo_v1.0.png)  
+![demo-v1.0](https://i.loli.net/2020/10/07/TJraBvUIl2uowip.png)
 
 - 台阶、楼梯的批量合成  
-![demo_v2.0](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/demo_v2.0.png)  
+![demo-v2.0](https://i.loli.net/2020/10/07/rxBZ7f2PtJKjMod.png)
 
 ## 一份（奇怪的）福利  
 ~~兵煲可爱妈妈爱~~  
 截取了b站up主[零之时_zero](https://space.bilibili.com/23535347)发布在[动态](https://t.bilibili.com/411789159264153150?tab=2)中的一张5K壁纸作为数据包的图标，请在1.16.2以上的客户端预览  
-![rue](https://github.com/Van-Cyclization/LBS_Ez_Crafting/blob/master/rue.png)  
+![rue_bing](https://i.loli.net/2020/10/06/hmAOD261GscwVN8.png)
