@@ -12,7 +12,7 @@
 3. 在游戏中使用命令`/reload`，加载数据包  
 
 4. 在游戏中使用命令`/datapack list`，查看已载入的数据包  
-   - 如返回已启用数据包中包含`[file/LBS_Ez_Crafting]`则安装成功  
+   - 如返回已启用数据包中包含`[file/LBS-EzCrafting]`则安装成功  
    - 使用命令`/datapack enable`或`/datapack disable`可以分别**启用/禁用**数据包  
 
 ## [合成配方展示（待更新）](https://docs.qq.com/doc/DZkh5QXNYblpnQXRu?)  
