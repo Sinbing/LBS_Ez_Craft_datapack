@@ -14,7 +14,9 @@
   },
   "rewards": {
     "recipes": [
-      "ezcraft:bone_to_bone_block"
+      "ezcraft:bone_to_bone_block",
+      "ezcraft:bone_to_bone_block2",
+      "ezcraft:bone_to_bone_block3"
     ]
   }
 }

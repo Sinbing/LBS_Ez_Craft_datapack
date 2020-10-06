@@ -14,7 +14,8 @@
   },
   "rewards": {
     "recipes": [
-      "ezcraft:ez_dispenser"
+      "ezcraft:ez_dispenser",
+      "ezcraft:ez_dispenser2"
     ]
   }
 }
