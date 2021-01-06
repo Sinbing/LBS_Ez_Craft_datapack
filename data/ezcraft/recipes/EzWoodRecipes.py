@@ -2,13 +2,13 @@
 
 woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'warped']
 products = ['stairs', 'slab']
-patterns = {'stairs': '''
+patterns = ['''
         "#  ",
         "## ",
         "###"
-    ''', 'slab': '''
+    ''', '''
         "###"
-    '''}
+    ''']
 
 
 def ezProductWood():
@@ -19,7 +19,7 @@ def ezProductWood():
             file_contents = f'''{{
     "type": "minecraft:crafting_shaped",
     "group": "wooden_{product}",
-    "pattern": [{patterns[product]}],
+    "pattern": [{patterns[products.index(product)]}],
     "key": {{
         "#": {{
             "tag": "minecraft:{wood}_logs"

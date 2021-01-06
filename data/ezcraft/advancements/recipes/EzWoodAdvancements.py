@@ -1,11 +1,12 @@
 # -*- coding: UTF-8 -*-
 
 woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'warped']
+requirements = {'': ['log'], 'woodcutter': ['planks']}
 
 
-def jsonGenerate():
+def woodCutter():
     for wood in woods:
-        file_name = f'woodcutters_{wood}_products.json'
+        file_name = f'woodcutter_{wood}.json'
         json_file = open(file=file_name, mode='w+')
         file_contents = f'''{{
     "parent": "ruecraft:recipes/root",
@@ -34,4 +35,4 @@ def jsonGenerate():
 
 
 if __name__ == '__main__':
-    jsonGenerate()
+    woodCutter()
