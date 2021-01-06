@@ -1,14 +1,13 @@
 # -*- coding: UTF-8 -*-
 
 woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'warped']
-products = ['stairs', 'slab']
-patterns = ['''
+products = {'stairs': ['''
         "#  ",
         "## ",
         "###"
-    ''', '''
+    ''', 1], 'slab': ['''
         "###"
-    ''']
+    ''', 2]}
 
 
 def ezProductWood():
@@ -19,7 +18,7 @@ def ezProductWood():
             file_contents = f'''{{
     "type": "minecraft:crafting_shaped",
     "group": "wooden_{product}",
-    "pattern": [{patterns[products.index(product)]}],
+    "pattern": [{products[product][0]}],
     "key": {{
         "#": {{
             "tag": "minecraft:{wood}_logs"
@@ -27,7 +26,7 @@ def ezProductWood():
     }},
     "result": {{
         "item": "minecraft:{wood}_{product}",
-        "count": {(products.index(product) + 2) * 8}
+        "count": {(products[product][1] + 1) * 8}
     }}
 }}
 '''
@@ -47,7 +46,7 @@ def woodCutter():
         "item": "minecraft:{wood}_planks"
     }},
     "result": "minecraft:{wood}_{product}",
-    "count": {products.index(product) + 1}
+    "count": {products[product][1]}
 }}
 '''
             json_file.write(file_contents)
