@@ -1,18 +1,18 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "wooden_stairs",
-	"pattern": [
-    "X  ",
-    "XX ",
-    "XXX"
-	],
-	"key": {
-	  "X": {
-		  "tag": "minecraft:acacia_logs"
-	  }
-	},
-	"result": {
-	  "item": "minecraft:acacia_stairs",
-	  "count": 16
-	}
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_stairs",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:acacia_logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_stairs",
+        "count": 16
+    }
 }

@@ -1,18 +1,18 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"group": "wooden_stairs",
-	"pattern": [
-    "X  ",
-    "XX ",
-    "XXX"
-	],
-	"key": {
-	  "X": {
-		  "tag": "minecraft:warped_stems"
-	  }
-	},
-	"result": {
-	  "item": "minecraft:warped_stairs",
-	  "count": 16
-	}
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_stairs",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:warped_logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:warped_stairs",
+        "count": 16
+    }
 }

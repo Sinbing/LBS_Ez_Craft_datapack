@@ -4,42 +4,57 @@ woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'w
 products = ['stairs', 'slab']
 
 
-def ezWoodSlab():
+def ezSlabWood():
     for wood in woods:
         for product in products:
-            file_name = f'woodcutters_{wood}_{product}.json'
+            file_name = f'ez_slab_{wood}.json'
             json_file = open(file=file_name, mode='w+')
             file_contents = f'''{{
-        "type": "minecraft:stonecutting",
-        "group": "wooden_{product}",
-        "ingredient": {{
-            "item": "{wood}_planks"
-        }},
-        "result": "{wood}_{product}",
-        "count": {products.index(product) + 1}
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_slab",
+    "pattern": [
+        "###"
+    ],
+    "key": {{
+        "#": {{
+            "tag": "minecraft:{wood}_logs"
+        }}
+    }},
+    "result": {{
+        "item": "minecraft:{wood}_slab",
+        "count": 24
     }}
-    '''
+}}
+'''
             json_file.write(file_contents)
             json_file.close()
 
 
-def ezWoodStairs():
+def ezStairsWood():
     for wood in woods:
-        for product in products:
-            file_name = f'woodcutters_{wood}_{product}.json'
-            json_file = open(file=file_name, mode='w+')
-            file_contents = f'''{{
-        "type": "minecraft:stonecutting",
-        "group": "wooden_{product}",
-        "ingredient": {{
-            "item": "{wood}_planks"
-        }},
-        "result": "{wood}_{product}",
-        "count": {products.index(product) + 1}
+        file_name = f'ez_stairs_{wood}.json'
+        json_file = open(file=file_name, mode='w+')
+        file_contents = f'''{{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_stairs",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {{
+        "#": {{
+            "tag": "minecraft:{wood}_logs"
+        }}
+    }},
+    "result": {{
+        "item": "minecraft:{wood}_stairs",
+        "count": 16
     }}
-    '''
-            json_file.write(file_contents)
-            json_file.close()
+}}
+'''
+        json_file.write(file_contents)
+        json_file.close()
 
 
 def woodCutter():
@@ -51,9 +66,9 @@ def woodCutter():
     "type": "minecraft:stonecutting",
     "group": "wooden_{product}",
     "ingredient": {{
-        "item": "{wood}_planks"
+        "item": "minecraft:{wood}_planks"
     }},
-    "result": "{wood}_{product}",
+    "result": "minecraft:{wood}_{product}",
     "count": {products.index(product) + 1}
 }}
 '''
@@ -62,4 +77,6 @@ def woodCutter():
 
 
 if __name__ == '__main__':
+    ezSlabWood()
+    ezStairsWood()
     woodCutter()
