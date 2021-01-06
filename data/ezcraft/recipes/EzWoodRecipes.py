@@ -14,7 +14,7 @@ products = {'stairs': ['''
 def ezProductWood():
     for wood in woods:
         for product in products:
-            file_name = f'ez_{product}_{wood}.json'
+            file_name = f'ez_{wood}_{product}.json'
             json_file = open(file=file_name, mode='w+')
             file_contents = f'''{{
     "type": "minecraft:crafting_shaped",
@@ -38,7 +38,7 @@ def ezProductWood():
 def woodCutter():
     for wood in woods:
         for product in products:
-            file_name = f'woodcutter_{product}_{wood}.json'
+            file_name = f'woodcutter_{wood}_{product}.json'
             json_file = open(file=file_name, mode='w+')
             file_contents = f'''{{
     "type": "minecraft:stonecutting",

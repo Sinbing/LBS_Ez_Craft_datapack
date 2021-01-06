@@ -13,8 +13,8 @@ def woodCutter():
     "parent": "ezcraft:recipes/root",
     "rewards": {{
         "recipes": [
-            "ezcraft:{crafting}_slab_{wood}",
-            "ezcraft:{crafting}_stairs_{wood}"
+            "ezcraft:{crafting}_{wood}_slab",
+            "ezcraft:{crafting}_{wood}_stairs"
         ]
     }},
     "criteria": {{
