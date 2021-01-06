@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slabs_jungle",
+            "ezcraft:ez_slab_jungle",
             "ezcraft:ez_stairs_jungle"
         ]
     },
     "criteria": {
-        "has_jungle_log": {
+        "has_jungle_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:jungle_log"
+                        "tag": "minecraft:jungle_logs"
                     }
                 ]
             }

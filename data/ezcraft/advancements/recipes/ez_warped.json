@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slabs_warped",
+            "ezcraft:ez_slab_warped",
             "ezcraft:ez_stairs_warped"
         ]
     },
     "criteria": {
-        "has_warped_log": {
+        "has_warped_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:warped_log"
+                        "tag": "minecraft:warped_stems"
                     }
                 ]
             }

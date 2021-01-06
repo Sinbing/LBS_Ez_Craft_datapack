@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slabs_birch",
+            "ezcraft:ez_slab_birch",
             "ezcraft:ez_stairs_birch"
         ]
     },
     "criteria": {
-        "has_birch_log": {
+        "has_birch_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:birch_log"
+                        "tag": "minecraft:birch_logs"
                     }
                 ]
             }

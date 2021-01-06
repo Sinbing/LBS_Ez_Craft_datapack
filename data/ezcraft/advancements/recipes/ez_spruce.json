@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slabs_spruce",
+            "ezcraft:ez_slab_spruce",
             "ezcraft:ez_stairs_spruce"
         ]
     },
     "criteria": {
-        "has_spruce_log": {
+        "has_spruce_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:spruce_log"
+                        "tag": "minecraft:spruce_logs"
                     }
                 ]
             }

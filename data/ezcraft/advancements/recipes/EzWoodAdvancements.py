@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
-woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'warped']
-requirements = {'ez': ['tag', 'log'], 'woodcutter': ['item', 'planks']}
+woods = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'crimson', 'warped']
+requirements = {'ez': ['tag', 'logs', 'stems'], 'woodcutter': ['item', 'planks', 'planks']}
 
 
 def woodCutter():
@@ -13,7 +13,7 @@ def woodCutter():
     "parent": "ezcraft:recipes/root",
     "rewards": {{
         "recipes": [
-            "ezcraft:{crafting}_slabs_{wood}",
+            "ezcraft:{crafting}_slab_{wood}",
             "ezcraft:{crafting}_stairs_{wood}"
         ]
     }},
@@ -23,7 +23,7 @@ def woodCutter():
             "conditions": {{
                 "items": [
                     {{
-                        "{requirements[crafting][0]}": "minecraft:{wood}_{requirements[crafting][1]}"
+                        "{requirements[crafting][0]}": "minecraft:{wood}_{requirements[crafting][woods.index(wood) // 6 + 1]}"
                     }}
                 ]
             }}

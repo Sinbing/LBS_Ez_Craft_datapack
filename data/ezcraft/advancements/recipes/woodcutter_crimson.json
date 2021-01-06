@@ -2,7 +2,7 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:woodcutter_slabs_crimson",
+            "ezcraft:woodcutter_slab_crimson",
             "ezcraft:woodcutter_stairs_crimson"
         ]
     },

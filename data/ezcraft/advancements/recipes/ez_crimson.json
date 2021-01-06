@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slabs_crimson",
+            "ezcraft:ez_slab_crimson",
             "ezcraft:ez_stairs_crimson"
         ]
     },
     "criteria": {
-        "has_crimson_log": {
+        "has_crimson_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:crimson_log"
+                        "tag": "minecraft:crimson_stems"
                     }
                 ]
             }
