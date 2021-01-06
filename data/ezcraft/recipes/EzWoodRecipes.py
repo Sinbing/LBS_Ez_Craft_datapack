@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
-woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'warped']
+woods = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'crimson', 'warped']
+logs = ['logs', 'stems']
 products = {'stairs': ['''
         "#  ",
         "## ",
@@ -21,7 +22,7 @@ def ezProductWood():
     "pattern": [{products[product][0]}],
     "key": {{
         "#": {{
-            "tag": "minecraft:{wood}_logs"
+            "tag": "minecraft:{wood}_{logs[woods.index(wood) // 6]}"
         }}
     }},
     "result": {{
