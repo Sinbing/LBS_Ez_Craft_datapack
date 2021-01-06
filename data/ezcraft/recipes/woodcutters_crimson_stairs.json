@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "group": "wooden_stairs",
-    "ingredient": {
-        "item": "crimson_planks"
-    },
-    "result": "crimson_stairs",
-    "count": 1
-}

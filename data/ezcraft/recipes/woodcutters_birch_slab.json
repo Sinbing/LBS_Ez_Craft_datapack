@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "group": "wooden_slab",
-    "ingredient": {
-        "item": "birch_planks"
-    },
-    "result": "birch_slab",
-    "count": 2
-}
