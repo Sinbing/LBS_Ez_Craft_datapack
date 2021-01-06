@@ -7,7 +7,7 @@
         ]
     },
     "criteria": {
-        "has_warped_logs": {
+        "has_warped_stems": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

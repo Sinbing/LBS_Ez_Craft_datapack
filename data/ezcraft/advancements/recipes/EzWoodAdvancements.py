@@ -18,7 +18,7 @@ def woodCutter():
         ]
     }},
     "criteria": {{
-        "has_{wood}_{requirements[crafting][1]}": {{
+        "has_{wood}_{requirements[crafting][woods.index(wood) // 6 + 1]}": {{
             "trigger": "minecraft:inventory_changed",
             "conditions": {{
                 "items": [
