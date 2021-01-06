@@ -2,8 +2,8 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_dark_oak_slabs",
-            "ezcraft:ez_dark_oak_stairs"
+            "ezcraft:ez_slabs_dark_oak",
+            "ezcraft:ez_stairs_dark_oak"
         ]
     },
     "criteria": {

@@ -2,8 +2,8 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:woodcutter_spruce_slabs",
-            "ezcraft:woodcutter_spruce_stairs"
+            "ezcraft:woodcutter_slabs_spruce",
+            "ezcraft:woodcutter_stairs_spruce"
         ]
     },
     "criteria": {

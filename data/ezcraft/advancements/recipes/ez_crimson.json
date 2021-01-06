@@ -2,8 +2,8 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_crimson_slabs",
-            "ezcraft:ez_crimson_stairs"
+            "ezcraft:ez_slabs_crimson",
+            "ezcraft:ez_stairs_crimson"
         ]
     },
     "criteria": {

@@ -2,8 +2,8 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_acacia_slabs",
-            "ezcraft:ez_acacia_stairs"
+            "ezcraft:ez_slabs_acacia",
+            "ezcraft:ez_stairs_acacia"
         ]
     },
     "criteria": {

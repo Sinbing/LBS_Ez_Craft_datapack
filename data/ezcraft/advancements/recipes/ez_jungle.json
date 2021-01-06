@@ -2,8 +2,8 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_jungle_slabs",
-            "ezcraft:ez_jungle_stairs"
+            "ezcraft:ez_slabs_jungle",
+            "ezcraft:ez_stairs_jungle"
         ]
     },
     "criteria": {
