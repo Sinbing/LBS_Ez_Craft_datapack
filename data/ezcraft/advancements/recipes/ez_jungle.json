@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:woodcutter_birch_slabs",
-            "ezcraft:woodcutter_birch_stairs"
+            "ezcraft:ez_jungle_slabs",
+            "ezcraft:ez_jungle_stairs"
         ]
     },
     "criteria": {
-        "has_birch_planks": {
+        "has_jungle_log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_planks"
+                        "tag": "minecraft:jungle_log"
                     }
                 ]
             }

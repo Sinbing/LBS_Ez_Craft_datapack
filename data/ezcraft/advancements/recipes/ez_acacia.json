@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:woodcutter_birch_slabs",
-            "ezcraft:woodcutter_birch_stairs"
+            "ezcraft:ez_acacia_slabs",
+            "ezcraft:ez_acacia_stairs"
         ]
     },
     "criteria": {
-        "has_birch_planks": {
+        "has_acacia_log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_planks"
+                        "tag": "minecraft:acacia_log"
                     }
                 ]
             }

@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:woodcutter_birch_slabs",
-            "ezcraft:woodcutter_birch_stairs"
+            "ezcraft:ez_warped_slabs",
+            "ezcraft:ez_warped_stairs"
         ]
     },
     "criteria": {
-        "has_birch_planks": {
+        "has_warped_log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:birch_planks"
+                        "tag": "minecraft:warped_log"
                     }
                 ]
             }

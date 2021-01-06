@@ -1,28 +1,29 @@
 # -*- coding: UTF-8 -*-
 
 woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'warped']
-requirements = {'': ['log'], 'woodcutter': ['planks']}
+requirements = {'ez': ['tag', 'log'], 'woodcutter': ['item', 'planks']}
 
 
 def woodCutter():
     for wood in woods:
-        file_name = f'woodcutter_{wood}.json'
-        json_file = open(file=file_name, mode='w+')
-        file_contents = f'''{{
-    "parent": "ruecraft:recipes/root",
+        for crafting in requirements:
+            file_name = f'{crafting}_{wood}.json'
+            json_file = open(file=file_name, mode='w+')
+            file_contents = f'''{{
+    "parent": "ezcraft:recipes/root",
     "rewards": {{
         "recipes": [
-            "ezcraft:rnc_woodcutters_{wood}_slabs",
-            "ezcraft:rnc_woodcutters_{wood}_stairs"
+            "ezcraft:{crafting}_{wood}_slabs",
+            "ezcraft:{crafting}_{wood}_stairs"
         ]
     }},
     "criteria": {{
-        "has_{wood}_planks": {{
+        "has_{wood}_{requirements[crafting][1]}": {{
             "trigger": "minecraft:inventory_changed",
             "conditions": {{
                 "items": [
                     {{
-                        "item": "minecraft:{wood}_planks"
+                        "{requirements[crafting][0]}": "minecraft:{wood}_{requirements[crafting][1]}"
                     }}
                 ]
             }}
@@ -30,8 +31,8 @@ def woodCutter():
     }}
 }}
 '''
-        json_file.write(file_contents)
-        json_file.close()
+            json_file.write(file_contents)
+            json_file.close()
 
 
 if __name__ == '__main__':

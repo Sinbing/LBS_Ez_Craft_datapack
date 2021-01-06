@@ -1,9 +1,9 @@
 {
-    "parent": "ruecraft:recipes/root",
+    "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:rnc_woodcutters_acacia_slabs",
-            "ezcraft:rnc_woodcutters_acacia_stairs"
+            "ezcraft:woodcutter_acacia_slabs",
+            "ezcraft:woodcutter_acacia_stairs"
         ]
     },
     "criteria": {

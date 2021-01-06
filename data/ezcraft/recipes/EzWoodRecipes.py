@@ -38,7 +38,7 @@ def ezProductWood():
 def woodCutter():
     for wood in woods:
         for product in products:
-            file_name = f'woodcutter_{wood}_{product}.json'
+            file_name = f'woodcutter_{product}_{wood}.json'
             json_file = open(file=file_name, mode='w+')
             file_contents = f'''{{
     "type": "minecraft:stonecutting",
