@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slab_oak",
-            "ezcraft:ez_stairs_oak"
+            "ezcraft:ezcraft_acacia_slab",
+            "ezcraft:ezcraft_acacia_stairs"
         ]
     },
     "criteria": {
-        "has_oak_logs": {
+        "has_acacia_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:oak_logs"
+                        "tag": "minecraft:acacia_logs"
                     }
                 ]
             }

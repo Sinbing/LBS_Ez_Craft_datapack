@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slab_spruce",
-            "ezcraft:ez_stairs_spruce"
+            "ezcraft:ezcraft_dark_oak_slab",
+            "ezcraft:ezcraft_dark_oak_stairs"
         ]
     },
     "criteria": {
-        "has_spruce_logs": {
+        "has_dark_oak_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:spruce_logs"
+                        "tag": "minecraft:dark_oak_logs"
                     }
                 ]
             }

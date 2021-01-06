@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_slab",
+    "pattern": [
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:acacia_logs"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_slab",
+        "count": 24
+    }
+}

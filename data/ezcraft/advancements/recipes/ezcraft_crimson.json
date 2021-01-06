@@ -2,17 +2,17 @@
     "parent": "ezcraft:recipes/root",
     "rewards": {
         "recipes": [
-            "ezcraft:ez_slab_acacia",
-            "ezcraft:ez_stairs_acacia"
+            "ezcraft:ezcraft_crimson_slab",
+            "ezcraft:ezcraft_crimson_stairs"
         ]
     },
     "criteria": {
-        "has_acacia_logs": {
+        "has_crimson_stems": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "tag": "minecraft:acacia_logs"
+                        "tag": "minecraft:crimson_stems"
                     }
                 ]
             }
