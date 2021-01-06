@@ -5,14 +5,14 @@ woods = ['acacia', 'birch', 'crimson', 'dark_oak', 'jungle', 'spruce', 'oak', 'w
 
 def jsonGenerate():
     for wood in woods:
-        file_name = f'rnc_woodcutters_{wood}_products.json'
+        file_name = f'woodcutters_{wood}_products.json'
         json_file = open(file=file_name, mode='w+')
         file_contents = f'''{{
     "parent": "ruecraft:recipes/root",
     "rewards": {{
         "recipes": [
-            "ruecraft:rnc_woodcutters_{wood}_slabs",
-            "ruecraft:rnc_woodcutters_{wood}_stairs"
+            "ezcraft:rnc_woodcutters_{wood}_slabs",
+            "ezcraft:rnc_woodcutters_{wood}_stairs"
         ]
     }},
     "criteria": {{

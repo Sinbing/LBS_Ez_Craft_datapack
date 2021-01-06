@@ -1,0 +1,21 @@
+{
+    "parent": "ruecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "ezcraft:rnc_woodcutters_acacia_slabs",
+            "ezcraft:rnc_woodcutters_acacia_stairs"
+        ]
+    },
+    "criteria": {
+        "has_acacia_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:acacia_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

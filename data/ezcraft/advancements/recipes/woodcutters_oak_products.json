@@ -1,0 +1,21 @@
+{
+    "parent": "ruecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "ezcraft:rnc_woodcutters_oak_slabs",
+            "ezcraft:rnc_woodcutters_oak_stairs"
+        ]
+    },
+    "criteria": {
+        "has_oak_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

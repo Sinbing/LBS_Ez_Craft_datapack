@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "group": "wooden_stairs",
+    "ingredient": {
+        "item": "jungle_planks"
+    },
+    "result": "jungle_stairs",
+    "count": 1
+}

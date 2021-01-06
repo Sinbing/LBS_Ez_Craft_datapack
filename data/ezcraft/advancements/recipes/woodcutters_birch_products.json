@@ -1,0 +1,21 @@
+{
+    "parent": "ruecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "ezcraft:rnc_woodcutters_birch_slabs",
+            "ezcraft:rnc_woodcutters_birch_stairs"
+        ]
+    },
+    "criteria": {
+        "has_birch_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

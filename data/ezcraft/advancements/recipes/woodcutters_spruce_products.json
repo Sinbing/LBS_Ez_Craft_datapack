@@ -1,0 +1,21 @@
+{
+    "parent": "ruecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "ezcraft:rnc_woodcutters_spruce_slabs",
+            "ezcraft:rnc_woodcutters_spruce_stairs"
+        ]
+    },
+    "criteria": {
+        "has_spruce_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

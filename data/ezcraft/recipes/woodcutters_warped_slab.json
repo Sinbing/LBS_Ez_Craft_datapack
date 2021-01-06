@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "group": "wooden_slab",
+    "ingredient": {
+        "item": "warped_planks"
+    },
+    "result": "warped_slab",
+    "count": 2
+}

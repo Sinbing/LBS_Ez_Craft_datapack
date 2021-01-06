@@ -7,7 +7,7 @@ products = ['stairs', 'slab']
 def jsonGenerate():
     for wood in woods:
         for product in products:
-            file_name = f'rnc_woodcutters_{wood}_{product}.json'
+            file_name = f'woodcutters_{wood}_{product}.json'
             json_file = open(file=file_name, mode='w+')
             file_contents = f'''{{
     "type": "minecraft:stonecutting",

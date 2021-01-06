@@ -1,0 +1,21 @@
+{
+    "parent": "ruecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "ezcraft:rnc_woodcutters_jungle_slabs",
+            "ezcraft:rnc_woodcutters_jungle_stairs"
+        ]
+    },
+    "criteria": {
+        "has_jungle_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_planks"
+                    }
+                ]
+            }
+        }
+    }
+}
