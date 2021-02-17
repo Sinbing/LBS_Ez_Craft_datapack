@@ -1,22 +1,21 @@
 {
     "parent": "ezcraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "ezcraft:ezcraft_acacia_slab",
+            "ezcraft:ezcraft_acacia_stairs"
+        ]
+    },
     "criteria": {
-        "have_bone": {
+        "has_acacia_logs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bone"
+                        "tag": "minecraft:acacia_logs"
                     }
                 ]
             }
         }
-    },
-    "rewards": {
-        "recipes": [
-            "ezcraft:bone_to_bone_block",
-            "ezcraft:bone_to_bone_block2",
-            "ezcraft:bone_to_bone_block3"
-        ]
     }
 }
